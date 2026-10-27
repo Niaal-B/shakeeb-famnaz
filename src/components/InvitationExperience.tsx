@@ -4,6 +4,7 @@ import { RotateCcwIcon, Volume2Icon, VolumeXIcon } from 'lucide-react';
 import { Doors } from './Doors';
 import { IntroOverlay } from './IntroOverlay';
 import { InvitationCard } from './InvitationCard';
+import { CoverPhotoSection } from './sections/CoverPhotoSection';
 import { InvitationSection } from './sections/InvitationSection';
 import { TimelineSection } from './sections/TimelineSection';
 import { CoupleSection } from './sections/CoupleSection';
@@ -74,6 +75,7 @@ export function InvitationExperience() {
           {/* Details, shown once the card is revealed */}
           {revealed &&
           <>
+              <CoverPhotoSection />
               <InvitationSection />
               <TimelineSection />
               <CoupleSection />

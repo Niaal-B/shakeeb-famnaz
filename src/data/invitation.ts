@@ -33,7 +33,9 @@ export const creator = {
 export const images = {
   doors: '/doors.jpg',
   card: '/card.jpg',
-  backdrop: '/backdrop.jpg'
+  backdrop: '/backdrop.jpg',
+  // Couple photo shown after the opening card; set to '' to hide the section
+  couple: '/couple.jpg'
 };
 
 export const invitationMessage = [
