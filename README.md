@@ -16,7 +16,7 @@ npm run dev      # http://localhost:5173
 
 All text (names, dates, venues, hosts) lives in [`src/data/invitation.ts`](src/data/invitation.ts).
 The link-preview text (title/description shown in WhatsApp) is in [`index.html`](index.html),
-and the preview image is [`public/og-image.jpg`](public/og-image.jpg) (1200×630).
+and the preview image is [`public/og-cover.jpg`](public/og-cover.jpg) (1200×630).
 
 ## Deploy to Vercel
 
