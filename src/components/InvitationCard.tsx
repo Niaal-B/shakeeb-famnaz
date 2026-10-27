@@ -88,13 +88,13 @@ export function InvitationCard({ stage }: InvitationCardProps) {
         </motion.div>
 
         <motion.h1 className="mt-2 flex flex-col items-center" variants={{ hidden: {}, show: { transition: { staggerChildren: 0.35 } } }}>
-          <motion.span variants={ink} className="whitespace-nowrap font-serif text-[clamp(2.1rem,10vw,2.75rem)] font-semibold leading-none text-ink">
+          <motion.span variants={ink} className="whitespace-nowrap font-serif text-[clamp(1.6rem,7vw,2rem)] font-semibold leading-none text-ink [text-shadow:0_0_6px_rgba(251,243,226,0.9),0_0_14px_rgba(251,243,226,0.7)]">
             {invitation.groom}
           </motion.span>
           <motion.span variants={item} className="font-script text-[clamp(2.5rem,12vw,3.25rem)] leading-[1.1] text-gold-dark">
             &amp;
           </motion.span>
-          <motion.span variants={ink} className="whitespace-nowrap px-2 font-script text-[clamp(2.5rem,11.5vw,3.1rem)] leading-[1] text-ink">
+          <motion.span variants={ink} className="whitespace-nowrap px-2 font-script text-[clamp(2.5rem,11.5vw,3.1rem)] leading-[1] text-ink [text-shadow:0_0_6px_rgba(251,243,226,0.9),0_0_14px_rgba(251,243,226,0.7)]">
             {invitation.bride}
           </motion.span>
         </motion.h1>
