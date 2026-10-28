@@ -56,7 +56,7 @@ const;
 export const timeline = [
 {
   date: 'Saturday, 12 December 2026 · Insha Allah',
-  title: 'Wedding Ceremony',
+  title: 'Wedding',
   time: '4:00 PM · After Asr',
   place: 'Kamber House',
   description: 'Solemnised according to Islamic traditions and sacred wedding rituals.'
