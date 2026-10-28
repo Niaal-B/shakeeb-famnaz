@@ -1,8 +1,8 @@
-# Mohammed Shakeeb & Fathimath Famnaz — Nikah Invitation
+# Mohammed Shakeeb & Fathimath Famnaz — Wedding Invitation
 
 An animated digital wedding invitation (React + Vite + Tailwind + Framer Motion).
 
-- **Nikah** · Saturday, 12 December 2026 · 4:00 PM (after Asr) · Kamber House
+- **Wedding** · Saturday, 12 December 2026 · 4:00 PM (after Asr) · Kamber House
 - **Reception** · Saturday, 12 December 2026 · 6:00 PM – 9:00 PM · Kamber House
 
 ## Run locally
@@ -16,7 +16,7 @@ npm run dev      # http://localhost:5173
 
 All text (names, dates, venues, hosts) lives in [`src/data/invitation.ts`](src/data/invitation.ts).
 The link-preview text (title/description shown in WhatsApp) is in [`index.html`](index.html),
-and the preview image is [`public/og-cover.jpg`](public/og-cover.jpg) (1200×630).
+and the preview image is [`public/og-wedding.jpg`](public/og-wedding.jpg) (1200×630).
 
 ## Deploy to Vercel
 

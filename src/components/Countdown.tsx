@@ -21,7 +21,7 @@ export function Countdown({ target }: CountdownProps) {
 
 
   return (
-    <div className="flex items-stretch justify-center" role="timer" aria-label={`${days} days, ${hours} hours, ${minutes} minutes until the Nikah`}>
+    <div className="flex items-stretch justify-center" role="timer" aria-label={`${days} days, ${hours} hours, ${minutes} minutes until the wedding`}>
       {units.map((u, i) =>
       <div key={u.label} className={`flex w-[72px] flex-col items-center ${i > 0 ? 'border-l border-gold/40' : ''}`}>
           <span className="relative block h-10 w-full overflow-hidden text-center font-display text-[2rem] leading-10 text-forest" aria-hidden="true">

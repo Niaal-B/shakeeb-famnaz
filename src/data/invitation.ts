@@ -4,7 +4,7 @@ export const invitation = {
   tagline: ['Together', 'in faith'],
   bride: 'Fathimath Famnaz',
   groom: 'Mohammed Shakeeb',
-  ceremony: 'Nikah',
+  ceremony: 'Wedding',
   dateShort: '12 · 12 · 2026',
   dateLong: '12 December 2026',
   dateIso: '2026-12-12',
@@ -39,7 +39,7 @@ export const images = {
 };
 
 export const invitationMessage = [
-{ text: 'In the name of Allah, the Most Beneficent, the Most Merciful. Mr. Ahmed Ali & Mrs. Zainaba cordially invite you to the Nikah and Reception of their son ' },
+{ text: 'In the name of Allah, the Most Beneficent, the Most Merciful. Mr. Ahmed Ali & Mrs. Zainaba cordially invite you to the wedding and reception of their son ' },
 { text: 'Mohammed Shakeeb', emphasis: true },
 { text: ' with ' },
 { text: 'Fathimath Famnaz', emphasis: true },
@@ -47,8 +47,8 @@ export const invitationMessage = [
 
 
 export const keyDetails = [
-{ icon: 'calendar', label: 'Nikah Day', value: 'Saturday, 12 December 2026', note: 'Insha Allah' },
-{ icon: 'clock', label: 'Nikah Time', value: '4:00 PM', note: 'After Asr · Kamber House' },
+{ icon: 'calendar', label: 'Wedding Day', value: 'Saturday, 12 December 2026', note: 'Insha Allah' },
+{ icon: 'clock', label: 'Wedding Time', value: '4:00 PM', note: 'After Asr · Kamber House' },
 { icon: 'moon', label: 'Hosts', value: 'Mr. Ahmed Ali & Mrs. Zainaba', note: 'Kamber House' },
 { icon: 'calendar', label: 'Reception', value: 'Saturday, 12 December 2026', note: '6:00 PM – 9:00 PM · Kamber House' }] as
 const;
@@ -56,10 +56,10 @@ const;
 export const timeline = [
 {
   date: 'Saturday, 12 December 2026 · Insha Allah',
-  title: 'Nikah Ceremony',
+  title: 'Wedding Ceremony',
   time: '4:00 PM · After Asr',
   place: 'Kamber House',
-  description: 'Solemnised according to Islamic traditions and sacred Nikah rituals.'
+  description: 'Solemnised according to Islamic traditions and sacred wedding rituals.'
 },
 {
   date: 'Saturday, 12 December 2026 · Insha Allah',
@@ -92,13 +92,13 @@ export const hosts: {first: string;second: string;address: string;phone?: string
 
 export const events = [
 {
-  label: 'Nikah Ceremony',
+  label: 'Wedding Ceremony',
   day: 'Saturday',
   date: '12 December 2026',
   time: '4:00 PM · After Asr',
   venue: 'Kamber House',
   place: '',
-  description: "Join us for the sacred Nikah ceremony as we begin our journey together with Allah's blessings.",
+  description: "Join us for the sacred wedding ceremony as we begin our journey together with Allah's blessings.",
   mapUrl: 'https://www.google.com/maps?q=12.4929256,74.995163&z=17&hl=en'
 },
 {
@@ -115,5 +115,5 @@ export const events = [
 
 export const closing = {
   blessing: 'May Almighty Allah bless this union with health, harmony, peace and happiness for a lifetime.',
-  dates: 'Nikah & Reception · 12 December 2026'
+  dates: 'Wedding & Reception · 12 December 2026'
 };

@@ -45,7 +45,7 @@ export function InvitationCard({ stage }: InvitationCardProps) {
       initial={false}
       animate={{ opacity: visible ? 1 : 0, scale: revealed ? 1 : 0.86 }}
       transition={{ duration: revealed ? 0.9 : 0.4, ease }}
-      aria-label={`Nikah invitation of ${invitation.groom} and ${invitation.bride}`}>
+      aria-label={`Wedding invitation of ${invitation.groom} and ${invitation.bride}`}>
       
       {/* Slow breathing zoom on the artwork */}
       <motion.img

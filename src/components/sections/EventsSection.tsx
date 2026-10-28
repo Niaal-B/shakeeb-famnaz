@@ -7,10 +7,10 @@ import { events } from '../../data/invitation';
 
 export function EventsSection() {
   return (
-    <section className="relative overflow-hidden bg-forest px-6 py-16" aria-label="Nikah and Reception">
+    <section className="relative overflow-hidden bg-forest px-6 py-16" aria-label="Wedding and Reception">
       <GoldDust count={16} />
       <div className="relative">
-        <SectionHeading eyebrow="Join us for" title="Nikah & Reception" icon={MoonStarIcon} tone="dark" />
+        <SectionHeading eyebrow="Join us for" title="Wedding & Reception" icon={MoonStarIcon} tone="dark" />
 
         <div className="mt-10 space-y-6">
           {events.map((e, i) =>
