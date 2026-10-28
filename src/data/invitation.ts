@@ -48,7 +48,7 @@ export const invitationMessage = [
 
 export const keyDetails = [
 { icon: 'calendar', label: 'Wedding Day', value: 'Saturday, 12 December 2026', note: 'Insha Allah' },
-{ icon: 'clock', label: 'Wedding Time', value: '4:00 PM', note: 'After Asr · Kamber House' },
+{ icon: 'clock', label: 'Nikah Time', value: '4:00 PM', note: 'After Asr · Kamber House' },
 { icon: 'moon', label: 'Hosts', value: 'Mr. Ahmed Ali & Mrs. Zainaba', note: 'Kamber House' },
 { icon: 'calendar', label: 'Reception', value: 'Saturday, 12 December 2026', note: '6:00 PM – 9:00 PM · Kamber House' }] as
 const;
@@ -92,7 +92,7 @@ export const hosts: {first: string;second: string;address: string;phone?: string
 
 export const events = [
 {
-  label: 'Wedding Ceremony',
+  label: 'Nikah',
   day: 'Saturday',
   date: '12 December 2026',
   time: '4:00 PM · After Asr',
